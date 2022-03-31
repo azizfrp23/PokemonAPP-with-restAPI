@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.background{
+    background: url('https://wallpaperaccess.com/full/24934.jpg')center / cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    background: yellow;
+    padding: 10px 20px;
+}
+.nav h1{
+    margin: 0;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 50px 20px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 50px;
+}
+.card h1{
+    margin: 0;
+}
+.card_title h1{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    margin: 0 15px;
+}
+.btn .prev{
+    padding: 8px 10px;
+    background: red;
+    border: 0;
+    color: white;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.btn .next{
+    padding: 8px 10px;
+    background: green;
+    border: 0;
+    color: white;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.btn .number{
+    background-color: blueviolet;
+    padding: 5px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+.next.disabled{
+    display: none;
+}
+
+.prev.disabled{
+    display: none;
+}
